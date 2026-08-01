@@ -1,0 +1,20 @@
+*.iml
+.gradle
+.kotlin
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+.env
+# NOTE: debug.keystore is intentionally NOT ignored. build.gradle.kts requires it to exist
+# at the repo root to sign debug builds. Excluding it here was causing every fresh clone /
+# CI build to fail at the signing step since the file never made it into git.
